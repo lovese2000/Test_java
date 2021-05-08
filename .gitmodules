@@ -1,0 +1,3 @@
+[submodule "plugins/archijson"]
+	path = plugins/archijson
+	url = git@github.com:Inst-AAA/archijson.git
