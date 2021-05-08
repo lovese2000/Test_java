@@ -1,0 +1,20 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-router": "^9.4.0",
+    "mime": "^2.5.2",
+    "socket.io": "^3.1.2"
+  },
+  "devDependencies": {
+    "koa-webpack": "^5.3.0"
+  },
+  "description": ""
+}
