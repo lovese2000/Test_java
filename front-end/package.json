@@ -1,0 +1,76 @@
+{
+  "name": "archiweb",
+  "version": "0.2.0",
+  "private": true,
+  "description": "ArchiWeb: a front-end web application to display architectural data",
+  "author": {
+    "name": "Yichen Mo",
+    "email": "moyichen@seu.edu.cn"
+  },
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "core-js": "^3.9.1",
+    "dat.gui": "^0.7.7",
+    "earcut": "^2.2.2",
+    "mapbox-gl": "^2.2.0",
+    "pkgfiles": "^2.3.2",
+    "priorityqueuejs": "^2.0.0",
+    "socket.io": "^3.1.2",
+    "socket.io-client": "^3.1.2",
+    "three": "^0.128.0",
+    "three-csm": "^1.1.0",
+    "undo-manager": "^1.0.5",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.4.8"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-eslint": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.32.8",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "^2.3.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.7.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inst-AAA/archiweb"
+  },
+  "files": [
+    "src/archiweb.js",
+    "src/templates",
+    "src/creator",
+    "src/editor",
+    "src/examples",
+    "src/viewers"
+  ]
+}

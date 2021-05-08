@@ -1,0 +1,6 @@
+[submodule "plugins/archijson"]
+	path = plugins/archijson
+	url = git@github.com:Inst-AAA/archijson.git
+[submodule "plugins/geometry-processing-js"]
+	path = plugins/geometry-processing-js
+	url = https://github.com/GeometryCollective/geometry-processing-js
