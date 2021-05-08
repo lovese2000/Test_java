@@ -1,0 +1,5 @@
+COMPAS==1.2.1
+compas-tna=0.1.5
+Flask==1.1.1
+Flask-Cors==3.0.10
+Flask-SocketIO==5.0.1
